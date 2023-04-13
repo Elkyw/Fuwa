@@ -1,7 +1,7 @@
 ## ScreenShot
 <p align="center" >
     <br>
-    <img src="/screenshot.png" width="550">
+    <img src="/Fuwa.png" width="550">
 
 <br>
 </p>
