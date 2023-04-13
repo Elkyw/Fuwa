@@ -1,0 +1,114 @@
+<html>
+
+<head>
+  <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+  <style>
+    body {
+      background-image: url(bg.jpg);
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      max-height: 1000vh;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+    }
+
+    .members-count {
+      padding: 15px;
+      margin-bottom: 5px;
+      background: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      width: 50%;
+
+    }
+
+    .members-list {
+      padding: 15px;
+      margin-bottom: 5px;
+      background: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      width: 50%;
+    }
+
+    .messages {
+      padding: 15px;
+      margin-bottom: 3%;
+      background: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      width: 50%;
+    }
+
+    .messages {
+      flex-shrink: 1;
+      overflow: auto;
+    }
+
+    .message {
+      padding: 5px 0;
+    }
+
+    .message .member {
+      display: inline-block;
+
+    }
+
+    .member {
+      padding-right: 80px;
+      position: relative;
+      width: 8%;
+    }
+
+    .message-form {
+      display: flex;
+      flex-shrink: 0;
+      margin-top: 50%;
+      width: 100%;
+      color: azure;
+      border-radius: 6%;
+      position: fixed;
+    }
+
+    .message-form__input {
+      flex-grow: 1;
+      font-size: 20px;
+      color: azure;
+      background: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    .message-form__button {
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="members-count">-</div>
+  <div class="members-list">-</div>
+  <div class="messages"></div>
+  <form class="message-form" onsubmit="return false;">
+    <input class="message-form__input" type="text" />
+    <input class="message-form__button" value="Send" type="submit" />
+  </form>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
