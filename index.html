@@ -1,16 +1,31 @@
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-  <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type='text/javascript' src='/main.js'></script>
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="This is an example of the text that will show up in search results. Read on to learn
+    more about description tags.">
+  <meta name="keywords" content="Fuwa , chatroom , elkyw , Elkyw , open-source , chat , privacy">
+  <meta name="thumbnail" content="/fuwa.png" />
+  <title>Fuwa- An open-source software for chatting anonymously !!</title>
+
   <style>
     body {
-      background-image: url(bg.jpg);
       margin: 0;
       padding: 20px;
       display: flex;
       flex-direction: column;
       max-height: 1000vh;
       font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      opacity: 50%;
+      background-image: url(bg.jpg);
 
     }
 
@@ -49,6 +64,7 @@
       border-radius: 10px;
       border: 1px solid rgba(255, 255, 255, 0.18);
       width: 50%;
+      color: azure;
     }
 
     .messages {
@@ -74,8 +90,8 @@
     .message-form {
       display: flex;
       flex-shrink: 0;
-      margin-top: 50%;
-      width: 100%;
+      bottom: 20px;
+      width: 90%;
       color: azure;
       border-radius: 6%;
       position: fixed;
@@ -83,7 +99,7 @@
 
     .message-form__input {
       flex-grow: 1;
-      font-size: 20px;
+      font-size: 17px;
       color: azure;
       background: rgba(255, 255, 255, 0.25);
       box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -95,6 +111,13 @@
 
     .message-form__button {
       margin: 10px;
+      background: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      height: 30px;
     }
   </style>
 </head>
@@ -107,7 +130,7 @@
     <input class="message-form__input" type="text" />
     <input class="message-form__button" value="Send" type="submit" />
   </form>
-
+  
   <script src="./script.js"></script>
 </body>
 
