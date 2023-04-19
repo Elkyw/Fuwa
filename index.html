@@ -5,15 +5,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
-  <link rel="icon" type="image/x-icon" href="./Donut.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script type='text/javascript' src='/main.js'></script>
+  <link rel="icon" type="image/x-icon" href="donut.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="This is an example of the text that will show up in search results. Read on to learn
     more about description tags.">
   <meta name="keywords" content="Fuwa , chatroom , elkyw , Elkyw , open-source , chat , privacy">
   <meta name="thumbnail" content="/fuwa.png" />
+  <meta property="article:tag" content="Fuwa" />
+  <meta property="article:tag" content="political" />
+  <meta property="article:tag" content="Elkyw" />
+  <meta property="article:tag" content="Chat" />
+  <meta property="article:tag" content="web" />
+  <meta property="article:tag" content="conversation" />
+  <meta property="article:tag" content="programming" />
+  <meta property="article:tag" content="privacy" />
+  <meta property="article:tag" content="opensource" />
+  <meta property="article:tag" content="education" />
+  <meta property="article:tag" content="usa" />
+  <meta property="article:tag" content="fun" />
+  <meta property="article:tag" content="Anime" />
+  <meta property="article:tag" content="socket.io" />
+  <meta property="article:tag" content="javascript" />
+  <meta property="article:tag" content="Krapfen.inc" />
+  
+
   <title>Fuwa- An open-source software for chatting anonymously !!</title>
 
   <style>
@@ -23,8 +41,11 @@
       display: flex;
       flex-direction: column;
       max-height: 1000vh;
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      background-image: url(bg.jpg);
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      background-image: url("bg.png");
+      background-color: #224154;
+      background-repeat: no-repeat;
+      background-size:cover;
 
     }
 
@@ -127,10 +148,11 @@
   <div class="messages"></div>
   <form class="message-form" onsubmit="return false;">
     <input class="message-form__input" type="text" />
-    <input class="message-form__button" value="Send" type="submit" />
+    <input class="message-form__button" value="send" type="submit">
   </form>
-  
+
   <script src="./script.js"></script>
+<script src="bg.js"></script>
 </body>
 
 </html>
