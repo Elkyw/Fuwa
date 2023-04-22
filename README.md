@@ -1,7 +1,7 @@
 
 <p align="center" >
     <br>
-    <img src="/logo.png" width="550">
+    <img src="/logo.jpg" width="550">
 
 <br>
 </p>
@@ -34,7 +34,7 @@ Fuwa is an Open-Source chatroom with morden UI !!
 <br>
 
 
-_**Note** : Make sure you have installed `web browser` may be you have !! but still i dont wanna take any risk lol .|_
+_**Note** : Make sure you have Enabled javascript in your browser.|_
 
 ### 🐱‍👤 Thanks for support
 
