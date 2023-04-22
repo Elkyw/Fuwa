@@ -1,7 +1,7 @@
-## ScreenShot
+
 <p align="center" >
     <br>
-    <img src="/Fuwa.png" width="550">
+    <img src="/logo.png" width="550">
 
 <br>
 </p>
@@ -19,14 +19,19 @@ Fuwa is an Open-Source chatroom with morden UI !!
 
   - I know many of you are fustrated about your boss berating you infront of everyone just for no valid reason so you also wanna berate him but how you can ? worry not on Fuwa you can share your opinion without any fear of censorship and persicution . without even reveal your true identity thank to the psudo-name generating algorithm .
     - Allow you to share your ideas to limited amount of ppl .
-    - modern ui helps you to connect your college seemlessly.
-
+    - modern ui helps you to connect your Friends seemlessly.
+    - let your have unfiltered opinion
+    - without any censorship , with privacy and user experience at its core.
 - ### 🚀Speed
 
   - just to understand Fuwa is nearly 5x fast as your mums car  .
 
 ## ScreenShot
- <img src="/Fuwa.png" width="550">
+ <p align="center" >
+    <br>
+    <img src="/Fuwa.png" width="550">
+
+<br>
 
 
 _**Note** : Make sure you have installed `web browser` may be you have !! but still i dont wanna take any risk lol .|_
