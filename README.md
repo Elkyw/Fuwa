@@ -25,7 +25,8 @@ Fuwa is an Open-Source chatroom with morden UI !!
 
   - just to understand Fuwa is nearly 5x fast as your mums car  .
 
-## Demo
+## ScreenShot
+ <img src="/Fuwa.png" width="550">
 
 
 _**Note** : Make sure you have installed `web browser` may be you have !! but still i dont wanna take any risk lol .|_
