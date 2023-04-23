@@ -20,7 +20,7 @@ Fuwa is an Open-Source chatroom with morden UI !!
   - I know many of you are fustrated about your boss berating you infront of everyone just for no valid reason so you also wanna berate him but how you can ? worry not on Fuwa you can share your opinion without any fear of censorship and persicution . without even reveal your true identity thank to the psudo-name generating algorithm .
     - Allow you to share your ideas to limited amount of ppl .
     - modern ui helps you to connect your Friends seemlessly.
-    - let your have unfiltered opinion
+    - let your have an unfiltered talk.
     - without any censorship , with privacy and user experience at its core.
 - ### 🚀Speed
 
