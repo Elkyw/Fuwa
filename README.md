@@ -36,5 +36,5 @@ Fuwa is an Open-Source chatroom with morden UI !!
 
 _**Note** : Make sure you have Enabled javascript in your browser.|_
 
-### 🐱‍👤 Thanks for ur support
+### 🐱‍👤 Thanks for your support
 
